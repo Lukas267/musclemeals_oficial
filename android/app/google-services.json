@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082386338976",
+    "project_id": "muscel-meals",
+    "storage_bucket": "muscel-meals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082386338976:android:020cb65a23892cdaae25c5",
+        "android_client_info": {
+          "package_name": "com.example.muscel_meals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082386338976-rggnvqj2vkl6b4dlrbf0vg7amtl5lrjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY-EZfLzTHQ75KyEtHR7KvoPahl5M5OyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082386338976-rggnvqj2vkl6b4dlrbf0vg7amtl5lrjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
