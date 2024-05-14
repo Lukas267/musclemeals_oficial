@@ -68,11 +68,13 @@ class _CustomOrderWidgetState extends State<CustomOrderWidget> {
     changeValues(snap);
     categories = await DatabaseService().getCategories();
 
-    sortedCategories = Map.fromIterables(
-        categories,
-        categories
-            .map((c) => bowlIngredients[c] ?? {})
-            .where((e) => e.isNotEmpty));
+    sortedCategories = {};
+    for (var category in categories) {
+      var categoryIngredients = bowlIngredients[category] ?? {};
+      if (categoryIngredients.isNotEmpty) {
+        sortedCategories[category] = categoryIngredients;
+      }
+    }
 
     print(bowlIngredients);
     print(sortedCategories);
